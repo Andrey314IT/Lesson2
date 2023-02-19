@@ -8,8 +8,9 @@ class Tree:
   def get_older(self):
     self.age += 1
     self.leaves -= 10
+    self.height += 10
 
 my_tree = Tree()
-print(my_tree.age, my_tree.leaves)
+print(my_tree.age, my_tree.leaves, my_tree.height)
 my_tree.get_older()
-print(my_tree.age, my_tree.leaves)
+print(my_tree.age, my_tree.leaves, my_tree.height)
